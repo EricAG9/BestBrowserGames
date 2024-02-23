@@ -1,0 +1,102 @@
+.game-container {
+    margin: 2% 40%;
+    width: 20%;
+    height: 250px;
+    margin-top: -16%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px rgb(238, 255, 0);
+    
+}
+
+.game-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px rgb(238, 255, 0);
+  }
+
+.container-games {
+    margin: 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20%, 1fr)); /* Até quatro colunas por linha */
+    gap: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.search {
+    margin: 2%;
+    width: 20%;
+    height: 150px;
+    margin-top: 25%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px rgb(255, 255, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+.jogos {
+    margin: 4%;
+    width: 90%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px rgb(238, 255, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.favorite-icon {
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  /* Estilo padrão da estrela */
+  .favorite-icon::before {
+    content: "\2606"; /* Código Unicode para estrela vazia */
+  }
+  
+  /* Estilo da estrela quando favoritada */
+  .favorite-icon.favorited::before {
+    color: gold; /* Cor da estrela favoritada */
+  }

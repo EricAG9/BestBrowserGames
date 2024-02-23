@@ -1,0 +1,26 @@
+.header {
+    background:linear-gradient(45deg, rgb(152, 137, 233), rgb(255, 0, 128));
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+    box-shadow: 10px 5px 5px black;
+}
+
+.logo {
+    flex: 1;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20vh;
+    color: yellow;
+    text-decoration: none;
+    font-size: 25px;
+}
+
